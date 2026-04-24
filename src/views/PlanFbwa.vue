@@ -65,9 +65,9 @@
 
                 <div class="flex flex-col justify-center items-center pt-2">
                   <p class="line-through text-red-400 font-bold text-lg">
-                    200 000 FCFA
+                    120 000 FCFA
                   </p>
-                  <p class="text-3xl font-extrabold">120 000 FCFA</p>
+                  <p class="text-3xl font-extrabold">70 000 FCFA</p>
                 </div>
               </div>
 
@@ -90,22 +90,22 @@
 
                 <p>
                   ✔ Paiement en une fois pour vous libérer :
-                  <strong>120 000 FCFA</strong>
+                  <strong>70 000 FCFA</strong>
                 </p>
 
                 <div class="space-y-1">
                   <p>✔ Paiement en 02 tranches :</p>
-                  <p class="pl-4">• 61 000 FCFA maintenant</p>
-                  <p class="pl-4">• 61 000 FCFA dans 14 jours</p>
-                  <p class="pl-4 font-semibold">Total : 122 000 FCFA</p>
+                  <p class="pl-4">• 37 000 FCFA maintenant</p>
+                  <p class="pl-4">• 37 000 FCFA dans 14 jours</p>
+                  <p class="pl-4 font-semibold">Total : 74 000 FCFA</p>
                 </div>
 
                 <div class="space-y-1">
                   <p>✔ Paiement en 03 tranches :</p>
-                  <p class="pl-4">• 42 000 FCFA maintenant</p>
-                  <p class="pl-4">• 42 000 FCFA dans 7 jours</p>
-                  <p class="pl-4">• 42 000FCFA dans 21 jours</p>
-                  <p class="pl-4 font-semibold">Total : 126 000frs</p>
+                  <p class="pl-4">• 25 500 FCFA maintenant</p>
+                  <p class="pl-4">• 25 500 FCFA dans 7 jours</p>
+                  <p class="pl-4">• 25 500FCFA dans 21 jours</p>
+                  <p class="pl-4 font-semibold">Total : 75 000frs</p>
                 </div>
               </div>
 
@@ -114,7 +114,7 @@
                 <button @click="redirectToWhatsapp({
                   nom: 'Accompagnement 03 mois',
                   duree: '3 mois',
-                  prix: '120 000 FCFA',
+                  prix: '70 000 FCFA',
                   modalite: 'Paiement 1x / 2x / 3x'
                 })" class="bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase px-8 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/40">
                   Rejoindre le programme
@@ -145,9 +145,9 @@
 
                 <div class="flex flex-col justify-center items-center pt-2">
                   <p class="line-through text-red-400 font-bold text-lg">
-                    300 000 FCFA
+                    200 000 FCFA
                   </p>
-                  <p class="text-3xl font-extrabold">200 000 FCFA</p>
+                  <p class="text-3xl font-extrabold">110 000 FCFA</p>
                 </div>
               </div>
 
@@ -187,22 +187,22 @@
 
                 <p>
                   ✔ Paiement en 01 fois :
-                  <strong>200 000 FCFA</strong>
+                  <strong>110 000 FCFA</strong>
                 </p>
 
                 <div class="space-y-1">
                   <p>✔ Paiement en 02 tranches :</p>
-                  <p class="pl-4">• 103 000 FCFA maintenant</p>
-                  <p class="pl-4">• 103 000 FCFA dans 14 jours</p>
-                  <p class="pl-4 font-semibold">Total : 206 000 FCFA</p>
+                  <p class="pl-4">• 57 000 FCFA maintenant</p>
+                  <p class="pl-4">• 57 000 FCFA dans 14 jours</p>
+                  <p class="pl-4 font-semibold">Total : 114 000 FCFA</p>
                 </div>
 
                 <div class="space-y-1">
                   <p>✔ Paiement en 03 tranches :</p>
-                  <p class="pl-4">• 70 000 FCFA maintenant</p>
-                  <p class="pl-4">• 70 000 FCFA dans 7 jours</p>
-                  <p class="pl-4">• 70 000 FCFA dans 21 jours</p>
-                  <p class="pl-4 font-semibold">Total : 210 000 FCFA</p>
+                  <p class="pl-4">• 40 000 FCFA maintenant</p>
+                  <p class="pl-4">• 40 000 FCFA dans 7 jours</p>
+                  <p class="pl-4">• 40 000 FCFA dans 21 jours</p>
+                  <p class="pl-4 font-semibold">Total : 120 000 FCFA</p>
                 </div>
               </div>
 
@@ -211,7 +211,7 @@
                 <button @click="redirectToWhatsapp({
                   nom: 'Accompagnement 06 mois',
                   duree: '6 mois',
-                  prix: '200 000 FCFA',
+                  prix: '110 000 FCFA',
                   modalite: 'Paiement 1x / 2x / 3x'
                 })"
                   class="bg-emerald-600 hover:bg-emerald-700 text-white font-bold uppercase px-8 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-emerald-500/40">
@@ -339,7 +339,7 @@ Je souhaite rejoindre le programme suivant :
 💰 Prix : ${programme.prix}
 💳 Modalité : ${programme.modalite}
 
-🏷️ Source : https://www.dimfitness.com/
+🏷️ Source : https://www.dimfitnes.com/
 🕒 Date : ${new Date().toLocaleDateString()}
 
 Merci de me guider pour la suite 😊
