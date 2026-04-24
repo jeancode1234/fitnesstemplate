@@ -339,7 +339,7 @@ Je souhaite rejoindre le programme suivant :
 💰 Prix : ${programme.prix}
 💳 Modalité : ${programme.modalite}
 
-🏷️ Source : https://www.dimfitnes.com/
+🏷️ Source : https://dimfitnes.com/
 🕒 Date : ${new Date().toLocaleDateString()}
 
 Merci de me guider pour la suite 😊
